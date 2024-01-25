@@ -1,11 +1,73 @@
-h1 {
-    background-color: green;
+body {
+    /*used image as back ground instead of color*/
+    /*background-color: beige;*/
+    background-image: url('../gender-reveal.jpg');
+    /*fomatting rules for background*/
+    background-attachment: fixed;
+    background-position: center;
   }
-  
-  div {
-    background-color: lightblue;
+
+
+  h1 {
+    color: rgb(63, 60, 60);
+    text-align: center;
+    font-size: 60px;
   }
-  
+
+  /*fomatting rules for paragraph*/
   p {
-    background-color: yellow;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(63, 60, 60);
+    font-size: 30px;
+  }
+
+  button {
+    align-self: center;
+    background-color: #454141; color: rgb(209, 197, 197);
+    font-size: 50px;
+  }
+
+
+  /*enclosed the image on twoo div to control and center the image*/
+  .container { 
+    height: 5px;
+    position: relative;
+  
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  /*fomatting rules for important paragraph*/
+  p.important {
+    border-style: ridge;
+    font-size: 15px;
+    border-color: beige;
+    border-width: 2px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  /*fomatting rules for figure and image that was used as a footer*/
+  figure {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    padding-top: 0px
+  }
+
+  img {
+    border-radius: 30px;
+    padding: 5px;
+    width: 300px;
   }
